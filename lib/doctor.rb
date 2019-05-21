@@ -13,8 +13,8 @@ class Doctor
     @name = name 
   end 
   
-  def new_appointment(doctor, date)
-    Appointment.new(doctor, date )
+  def new_appointment()
+
     
   end 
   
