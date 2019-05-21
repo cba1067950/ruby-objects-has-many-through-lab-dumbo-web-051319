@@ -14,11 +14,11 @@ class Doctor
     Appointment.new(patient, date, self)
   end 
   
-  # def appointments
-  #   Appointments.all.select do |appointment|
-  #     appointment.doctor == self 
-  #   end 
-  # end 
+  def appointments
+    Appointments.all.select do |appointment|
+      appointment.doctor == self 
+    end 
+  end 
   
   # def patients
   #   appointments.map do |appointment|
