@@ -8,7 +8,6 @@ class Doctor
   
   def new(name)
     @name = name 
-    @all_doctors << self
   end 
   
   def new_appointment
