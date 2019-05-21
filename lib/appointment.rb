@@ -5,6 +5,8 @@ class Appointment
   attr_reader :patient, :doctor, :date
   
   def initialize(date, patient, doctor)
+    binding.pry
+    
     @date = date
     @patient = patient 
     @doctor = doctor
