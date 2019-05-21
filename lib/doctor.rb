@@ -9,6 +9,7 @@ class Doctor
   end 
   
   def new(name)
+    binding.pry
     doct = Doctor.new(name)
     @@all << doct
   end 
