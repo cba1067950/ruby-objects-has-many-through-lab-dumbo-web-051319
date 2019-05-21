@@ -10,7 +10,8 @@ class Doctor
   end 
   
   def new(name)
-    Doctor.new(name)
+    doc = Doctor.new(name)
+    @@all << doc
   end 
   
   # def new_appointment(patient, date)
