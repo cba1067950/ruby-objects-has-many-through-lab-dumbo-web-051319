@@ -10,7 +10,7 @@ class Doctor
   end 
   
   def new(name)
-    @name = name
+    Doctore.new(name)
     @@all << self
   end 
   
