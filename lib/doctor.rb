@@ -9,9 +9,9 @@ class Doctor
     @@all << self
   end 
   
-  # def new_appointment(patient, date)
-  #   Appointment.new(patient, date, self)
-  # end 
+  def new_appointment(patient, date)
+    Appointment.new(patient, date, self)
+  end 
   
   # def appointments
   #   Appointments.all.select do |appointment|
