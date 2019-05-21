@@ -15,6 +15,7 @@ class Doctor
   end 
   
   def appointments
+    binding.pry
     Appointments.all.select do |appointment|
       appointment.doctor == self 
     end 
